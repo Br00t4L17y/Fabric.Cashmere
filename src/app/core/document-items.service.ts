@@ -79,10 +79,11 @@ const docs: DocItem[] = [
     },
     {id: 'picklist', name: 'Picklist', category: 'layout', examples: ['picklist-simple', 'picklist-valueset'], usageDoc: true},
     {
-        id: 'popover',
+        id: 'pop',
         name: 'Popover',
         category: 'popups',
-        examples: ['popover-overview', 'popover-placement', 'popover-dynamic']
+        examples: ['popover-simple', 'popover-overview', 'popover-menu', 'popover-tooltip'],
+        usageDoc: true
     },
     {
         id: 'progress-indicators',
@@ -99,6 +100,12 @@ const docs: DocItem[] = [
         usageDoc: true
     },
     {
+        id: 'scroll-nav',
+        name: 'ScrollNav',
+        category: 'nav',
+        examples: ['scroll-nav']
+    },
+    {
         id: 'select',
         name: 'Select',
         category: 'forms',
@@ -111,7 +118,7 @@ const docs: DocItem[] = [
         id: 'table',
         name: 'Table',
         category: 'table',
-        examples: ['table-overview', 'table-sort', 'table-filter'],
+        examples: ['resizable-columns', 'table-sort', 'table-filter'],
         usageDoc: true
     },
     {
